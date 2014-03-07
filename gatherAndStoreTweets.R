@@ -11,7 +11,13 @@
 #    - 	a table set up in this database that will accomodate a tweets data
 #	frame perfectly. (The best way to set this up is to run the sqlSave
 #	procedue at the bottom once the first time with "append=F" rather 
-#	than "T" as it is there.
+#	than "T" as it is there.)
+#
+# Recommended:
+#    -	a stored procedure in the database that will dump these tweets into 
+#	a larger table and remove duplicates, then clear out this table. 
+#	(Mine is called "updatealltweets" and its execution at the bottom 
+#	is commended out. )
 #	
 #********************************************************	
 
